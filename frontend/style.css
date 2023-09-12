@@ -1,0 +1,78 @@
+:root {
+    /* --base-color:#439ccd; */
+    --base-color: #0058ca;
+    --border-color: #d8dee4;
+}
+
+body {
+    background-color: #f6f8fa !important;
+}
+
+
+#navbar {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--base-color);
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    color: white;
+}
+
+#inner-container {
+    background-color: #f6f8fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    /* height: 300px; */
+    background-color: var(--base-color);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    left: 50%;
+    transform: translate(-50%);
+    /* border-style: groove;
+    border-width: 1px;
+    border-color: var(--base-color); */
+    /* background-image: url("./images/todo3.svg"); */
+}
+
+.todo-form-2 {
+    /* background-color: rgb(101, 226, 43); */
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+.todo-form-1 {
+    /* background-color: rgb(101, 226, 43); */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 80px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+footer{
+    background-color: var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 225px;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    padding-bottom:30px;
+}
